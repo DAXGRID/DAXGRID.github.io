@@ -134,6 +134,10 @@ body {
     justify-content: end;
 }
 
+.hero-section-secondary-content > img {
+    max-height: 600px;
+}
+
 .hero-section-secondary-block {
     flex-basis: 100%;
 }
