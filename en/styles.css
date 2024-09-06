@@ -317,6 +317,7 @@ body {
 
     .hero-section-secondary-content {
         flex-basis: 100%;
+        justify-content: center;
     }
 
     .company-reference-bar {
