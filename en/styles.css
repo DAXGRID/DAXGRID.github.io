@@ -84,6 +84,36 @@ body {
     max-height: 100%;
 }
 
+.nav-section-language-dropdown {
+}
+
+.nav-section-language-dropdown-content {
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    flex-direction: column;
+    display: none;
+    background-color: var(--white-primary);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.nav-section-language-dropdown-selection:hover {
+    cursor: pointer;
+}
+
+.nav-section-language-dropdown img {
+    height: 25px;
+}
+
+#language-selection {
+    display: none;
+}
+
+#language-selection:checked ~ .nav-section-language-dropdown-content {
+    display: flex;
+}
+
 /* End navigation section */
 
 /* Start hero section */
