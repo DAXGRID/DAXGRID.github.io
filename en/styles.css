@@ -137,19 +137,19 @@ body {
 
 .hero-section {
     background-color: var(--black-primary);
-    min-height: calc(100vh - 75px);
-    overflow: auto;
+    min-height: calc(100vh - 70px);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     display: flex;
     justify-content: center;
+    padding: 20px 0px ;
 }
 
 .hero-section-body {
     max-width: 85%;
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    align-items: center;
 }
 
 .hero-section-primary-block {
