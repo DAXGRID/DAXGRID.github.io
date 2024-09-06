@@ -90,7 +90,8 @@ body {
 .nav-section-language-dropdown-content {
     gap: 10px;
     position: absolute;
-    top: 60px;
+    top: 65px;
+    right: 40px;
     flex-direction: column;
     display: none;
     background-color: var(--white-primary);
