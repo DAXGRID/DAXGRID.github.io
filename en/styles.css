@@ -7,6 +7,18 @@
     --light-grey-primary: #F0F0F0;
 }
 
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 p {
     line-height: 1.5;
 }
@@ -173,7 +185,6 @@ body {
 }
 
 .introduction-container > h1 {
-    font-size: 36px;
 }
 
 .introduction-container-actions {
@@ -228,7 +239,6 @@ body {
 
 .features-primary-block h2 {
     flex-basis: 100%;
-    font-size: 28px;
     font-weight: 500;
     color: var(--black-primary)
 }
@@ -262,7 +272,6 @@ body {
 }
 
 .features-list-item > h3 {
-    font-size: 20px;
     flex-basis: 100%;
     color: var(--black-primary)
 }
@@ -275,6 +284,18 @@ body {
 /* End features section */
 
 @media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
     .nav-section-links {
         display: none;
     }
