@@ -47,7 +47,7 @@ body {
 
 .default-button--secondary {
     background-color: var(--purple-primary);
-    color: var(--primary-white);
+    color: var(--white-primary);
 }
 
 /* Start navigation section */
@@ -121,7 +121,7 @@ body {
 
 .hero-section {
     background-color: var(--black-primary);
-    height: calc(100vh - 75px);
+    min-height: calc(100vh - 75px);
     overflow: auto;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -203,6 +203,77 @@ body {
 
 /* End hero section */
 
+/* Start features section */
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+
+}
+
+.features-section-body {
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.features-primary-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex: 1;
+}
+
+.features-primary-block h2 {
+    flex-basis: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--black-primary)
+}
+
+.features-secondary-block {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.features-secondary-block img {
+    max-height: 400px;
+    border-radius: 45px;
+    border: 10px solid var(--white-primary);
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.features-list-item {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.features-list-item > h3 {
+    font-size: 20px;
+    flex-basis: 100%;
+    color: var(--black-primary)
+}
+
+.features-list-item > p {
+    flex-basis: 100%;
+    color: var(--black-primary)
+}
+
+/* End features section */
+
 @media (max-width: 480px) {
     .nav-section-links {
         display: none;
@@ -233,5 +304,26 @@ body {
 
     .company-reference-bar > ul {
         gap: 20px;
+    }
+
+    .features-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 50px 0px;
+    }
+
+    .features-section-body {
+        max-width: 100%;
+        padding: 0px 30px;
+        gap: 30px;
+    }
+
+    .features-primary-block {
+        flex-basis: 100%;
+    }
+
+    .features-secondary-block {
+        flex-basis: 100%;
     }
 }
