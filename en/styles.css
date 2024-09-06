@@ -343,9 +343,14 @@ body {
 
     .features-primary-block {
         flex-basis: 100%;
+        gap: 20px;
     }
 
     .features-secondary-block {
         flex-basis: 100%;
+    }
+
+    .features-list {
+        gap: 25px;
     }
 }
