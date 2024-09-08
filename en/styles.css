@@ -301,11 +301,6 @@ body {
 .customer-section-body {
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
-
-.customer-section-body {
-    display: flex;
     color: var(--white-primary);
     flex-wrap: wrap;
     text-align: center;
