@@ -467,6 +467,47 @@ body {
 
 /* End customer section */
 
+/* Start call to action section */
+.call-to-action-section {
+    background-color: var(--white-primary);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 30px;
+    height: 600px;
+}
+
+.call-to-action-container {
+    max-width: 1150px;
+    background-color: var(--purple-primary);
+    padding: 30px;
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-body {
+    max-width: 600px;
+    color: var(--white-primary);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.call-to-action-body > h2 {
+    flex-basis: 100%;
+}
+
+.call-to-action-body > p {
+    flex-basis: 100%;
+}
+
+/* End call to action section */
 
 @media (max-width: 1200px) {
     h1 {
@@ -582,5 +623,10 @@ body {
 
     .customer-reference-case {
         flex-basis: 100%;
+    }
+
+    .call-to-action-section {
+        padding: 50px 30px;
+        height: auto;
     }
 }
