@@ -485,14 +485,15 @@ body {
         font-size: 14px;
     }
 
-
     .customer-case {
         min-height: 300px;
+        width: auto;
     }
 
     .customer-reference-case {
         gap: 30px;
         min-height: 300px;
+        width: auto;
     }
 }
 
