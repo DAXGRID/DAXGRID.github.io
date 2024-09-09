@@ -343,12 +343,15 @@ body {
     flex: 1;
     align-content: center;
     max-height: 350px;
+    display: flex;
+    justify-content: center;
 }
 
 .customer-case-container {
     position: relative;
     height: 100%;
     width: 100%;
+    max-width: 350px;
 }
 
 .customer-case > img {
@@ -414,6 +417,7 @@ body {
     color: var(--black-primary);
     text-align: left;
     height: 350px;
+    max-width: 350px;
 }
 
 .customer-reference-case-text-block {
@@ -544,6 +548,7 @@ body {
     .customer-section {
         flex-wrap: wrap;
         padding: 50px 30px;
+        gap: 50px;
     }
 
     .customer-case {
@@ -553,6 +558,10 @@ body {
     .customer-case-button {
         right: 20px;
         bottom: 20px;
+    }
+
+    .customer-reference-container {
+        height: auto;
     }
 
     .customer-reference-case {
