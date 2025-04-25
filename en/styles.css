@@ -603,11 +603,11 @@ body {
   .hero-section-secondary-content {
     flex-basis: 100%;
     justify-content: center;
-    padding: 0px 40px;
+  }
 
-    & img {
-      padding-top: 0px;
-    }
+  .hero-section-secondary-content > img {
+    max-height: 250px;
+    padding-top: 20px;
   }
 
   .company-reference-bar {
