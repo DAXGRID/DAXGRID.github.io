@@ -584,6 +584,7 @@ body {
   }
 
   .hero-section {
+    height: auto;
     min-height: calc(100dvh - 75px);
   }
 
