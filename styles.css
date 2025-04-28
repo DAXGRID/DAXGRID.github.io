@@ -744,4 +744,18 @@ body {
   .contact-container-text-body p {
     flex-basis: 100%;
   }
+
+  .product-page-banner {
+    align-items: flex-start;
+    padding: 0px 20px;
+    padding-top: 30px;
+  }
+
+  .product-page-banner-body {
+    gap: 30px;
+
+    & > h1 {
+      font-size: 30px;
+    }
+  }
 }
