@@ -631,6 +631,14 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .product-page-banner {
+    align-items: flex-start;
+    padding: 0px 20px;
+    padding-top: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-section-links {
     display: none;
