@@ -113,6 +113,7 @@ body {
 }
 
 .nav-section-language-dropdown {
+  z-index: 1;
 }
 
 .nav-section-language-dropdown-content {
@@ -553,13 +554,15 @@ body {
 /* Start product page banner */
 
 .product-page-banner {
-  background-color: var(--grey);
+  background-color: var(--dark-grey);
   height: calc(100dvh - 75px);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-page-banner-body {
@@ -581,6 +584,19 @@ body {
     font-size: 20px;
     line-height: 1.5;
     max-width: 650px;
+  }
+}
+
+.product-page-banner-icon {
+  position: absolute;
+  right: -75px;
+  bottom: -50px;
+  flex-basis: 100%;
+  overflow: hidden;
+
+  & > img {
+    overflow: hidden;
+    width: 450px;
   }
 }
 
