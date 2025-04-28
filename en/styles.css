@@ -453,6 +453,7 @@ body {
 /* End customer section */
 
 /* Start call to action section */
+
 .call-to-action-section {
   background-color: var(--white-primary);
   display: flex;
@@ -548,6 +549,40 @@ body {
 }
 
 /* End footer */
+
+/* Start product page banner */
+
+.product-page-banner {
+  background-color: var(--grey);
+  height: calc(100dvh - 75px);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page-banner-body {
+  max-width: 1000px;
+  font-weight: lighter;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+
+  & > h1 {
+    color: var(--white-primary);
+    font-size: 62px;
+  }
+
+  & > h2 {
+    color: var(--greyish-white);
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 600px;
+  }
+}
 
 @media (max-width: 1200px) {
   h1 {
