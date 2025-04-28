@@ -562,7 +562,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .product-page-banner-body {
@@ -589,14 +589,14 @@ body {
 
 .product-page-banner-icon {
   position: absolute;
-  right: -75px;
-  bottom: -50px;
+  right: -150px;
+  bottom: -70px;
   flex-basis: 100%;
-  overflow: hidden;
+  overflow: clip;
 
   & > img {
-    overflow: hidden;
-    width: 450px;
+    overflow: clip;
+    width: 600px;
   }
 }
 
