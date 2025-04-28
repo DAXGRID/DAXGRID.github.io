@@ -229,8 +229,9 @@ body {
 .features-primary-block {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 25px;
   flex: 1;
+  align-content: flex-start;
 }
 
 .features-primary-block h2 {
@@ -573,6 +574,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
+  z-index: 1;
 
   & > h1 {
     color: var(--white-primary);
