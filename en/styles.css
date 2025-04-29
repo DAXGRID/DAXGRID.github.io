@@ -616,18 +616,19 @@ body {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 
   & > h2 {
     flex-basis: 100%;
     font-weight: 300;
     font-size: 52px;
+    max-width: 1200px;
   }
 
   & > p {
     flex-basis: 100%;
     font-weight: 300;
     font-size: 20px;
+    max-width: 1200px;
   }
 
   & > img {
@@ -637,6 +638,8 @@ body {
     max-width: 1200px;
     width: 100%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* End diagram overview */
