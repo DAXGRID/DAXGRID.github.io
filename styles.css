@@ -808,4 +808,10 @@ body {
       font-size: 30px;
     }
   }
+
+  .product-page-banner-icon {
+    & > img {
+      width: 450px;
+    }
+  }
 }
