@@ -814,4 +814,25 @@ body {
       width: 450px;
     }
   }
+
+  .diagram-overview-container {
+    padding: 20px 60px;
+    color: var(--greyish-white);
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    & > h2 {
+      font-size: 24px;
+    }
+
+    & > p {
+      font-size: 14px;
+    }
+
+    & > img {
+      margin-top: 20px;
+      justify-self: center;
+    }
+  }
 }
