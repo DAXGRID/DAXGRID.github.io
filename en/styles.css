@@ -1000,8 +1000,12 @@ body {
 
   .feature-icon-list {
     padding: 50px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .feature-icon-list-container {
     justify-content: center;
-    gap: 50px;
   }
 
   .feature-icon-list-container-item-title-block {
@@ -1014,9 +1018,5 @@ body {
 
   .feature-icon-list-container-item {
     width: calc(100% / 1 - 50px);
-  }
-
-  .feature-icon-list-container-item-text-block {
-    text-align: center;
   }
 }
