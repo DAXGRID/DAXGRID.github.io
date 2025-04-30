@@ -852,7 +852,8 @@ body {
   }
 
   .nav-section-links {
-    display: none;
+    /* For now until more pages are added we just allow it to be displayed */
+    /* display: none; */
   }
 
   .hero-section {
