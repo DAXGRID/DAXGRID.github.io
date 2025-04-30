@@ -824,12 +824,6 @@ body {
     flex-basis: 100%;
     justify-content: center;
     text-align: center;
-
-    & > h2 {
-    }
-
-    & > p {
-    }
   }
 
   .call-to-action-full-image-container {
