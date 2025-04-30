@@ -912,7 +912,6 @@ body {
   .features-primary-block {
     flex-basis: 100%;
     gap: 20px;
-    text-align: center;
   }
 
   .features-secondary-block {
@@ -1008,6 +1007,7 @@ body {
     padding: 50px 20px;
     text-align: center;
     gap: 30px;
+    justify-content: center;
   }
 
   .feature-icon-list-container {
