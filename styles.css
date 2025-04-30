@@ -774,6 +774,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 800px;
+    text-align: center;
   }
 }
 
@@ -858,6 +859,7 @@ body {
   .features-primary-block {
     flex-basis: 100%;
     gap: 20px;
+    text-align: center;
   }
 
   .features-secondary-block {
@@ -937,6 +939,7 @@ body {
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 
     & > p {
       font-size: 14px;
@@ -951,9 +954,12 @@ body {
   .feature-icon-list {
     padding: 50px 20px;
     justify-content: center;
+    gap: 50px;
   }
 
   .feature-icon-list-container-item-title-block {
+    justify-content: center;
+
     & > h3 {
       font-size: 20px;
     }
@@ -961,5 +967,9 @@ body {
 
   .feature-icon-list-container-item {
     width: calc(100% / 1 - 50px);
+  }
+
+  .feature-icon-list-container-item-text-block {
+    text-align: center;
   }
 }
