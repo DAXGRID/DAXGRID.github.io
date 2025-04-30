@@ -537,6 +537,11 @@ body {
   line-height: 1;
 }
 
+.contact-container-text-body p a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 .footer-splitter {
   border-bottom: 1px solid var(--white-primary);
   flex-basis: 100%;
