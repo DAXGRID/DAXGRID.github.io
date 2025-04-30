@@ -154,8 +154,6 @@ body {
 .hero-section {
   background-color: var(--grey);
   height: calc(100dvh - 75px);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   display: flex;
   justify-content: center;
 }
@@ -504,7 +502,6 @@ body {
 .footer-container {
   background-color: var(--black-primary);
   padding: 40px 30px;
-  border-radius: 45px 45px 0px 0px;
   gap: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -560,8 +557,6 @@ body {
 .product-page-banner {
   background-color: var(--dark-grey);
   height: calc(100dvh - 75px);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
